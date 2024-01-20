@@ -1,0 +1,1618 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('Fonts/Bluenesia.');
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+
+@font-face {
+   font-family: 'Bluenesia';
+   src: url('Fonts/Bluenesia.otf') format('opentype'),
+      url('Fonts/Bluenesia.ttf') format('truetype');
+   /* Add additional font formats if necessary (e.g., .woff, .woff2) */
+}
+
+* {
+   font-family: 'Bluenesia', sans-serif;
+}
+
+body {
+   background-color: #ffffff !important;
+   color: #ffefff;
+}
+
+.py-10 {
+   padding-top: 8em !important;
+   padding-bottom: 8em !important;
+}
+
+.pb-9 {
+   padding-bottom: 2em !important;
+}
+
+.mb-20 {
+   margin-bottom: 20em !important;
+}
+
+.mb-10 {
+   margin-bottom: 10em !important;
+}
+
+.mt-14 {
+   margin-top: 14em !important;
+}
+
+.mt-09 {
+   margin-top: 5em !important;
+}
+
+.mt-10 {
+   margin-top: 10em !important;
+}
+
+.pb-10 {
+   padding-bottom: 9em !important;
+}
+
+.heading-text-responsive {
+   font-size: 60px;
+}
+
+/* Navbar */
+
+.nav-image {
+   position: relative;
+   background-color: #343666 !important;
+}
+
+.nav-image::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-image: url(Images/Nav-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.nav-content {
+   position: relative;
+}
+
+.navbar-nav {
+   align-items: center;
+}
+
+.navbar-brand img {
+   width: 90px;
+}
+
+.navbar .navbar-nav .nav-link {
+   color: #fff;
+   font-size: 1.1em;
+   font-family: 'Bluenesia', sans-serif;
+   padding: 0.5em 1em;
+}
+
+.navbar-toggler:focus {
+   text-decoration: none;
+   outline: 0;
+   box-shadow: none !important;
+}
+
+@media screen and (min-width: 768px) {
+   .navbar-brand img {
+      width: 200px;
+   }
+
+   .navbar-brand {
+      margin-right: 0;
+      padding: 0 1em;
+   }
+}
+
+/* End Navbar */
+
+/* Hero */
+
+.hero-img {
+   position: relative;
+   background-color: #343666 !important;
+}
+
+.hero-img::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-image: url(Images/hero-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.hero-content {
+   position: relative;
+}
+
+.w-heading-title {
+   width: 60%;
+}
+
+/* End Hero */
+
+/* Section 1 */
+
+.sec-1-img {
+   position: relative;
+}
+
+.sec-1-img::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-image: url(Images/Section-1-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.sec-1-content {
+   position: relative;
+}
+
+.sec-1-h5 {
+   background-color: #343666;
+   color: #fff;
+   font-size: 25px;
+   width: 20%;
+}
+
+.sec-1-h4 {
+   background-color: #ec008c;
+   color: #fff;
+   font-size: 40px;
+}
+
+.sec-1-p {
+   font-family: 'Capriola', sans-serif;
+   width: 80%;
+}
+
+/* End 1 */
+
+/* Section 2 */
+
+.sec-2-img {
+   position: relative;
+}
+
+.sec-2-img::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-image: url(Images/Section-2-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.sec-2-content {
+   position: relative;
+}
+
+.sec-2-h5 {
+   background-color: #fff;
+   color: #343666;
+   font-size: 25px;
+   width: 20%;
+}
+
+.sec-2-p {
+   font-family: 'Capriola', sans-serif;
+   width: 76%;
+   color: #fff;
+}
+
+/* End 2 */
+
+/* Section 3 */
+
+.sec-3-img {
+   position: relative;
+}
+
+.sec-3-img::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-image: url(Images/Section-3-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.sec-3-content {
+   position: relative;
+}
+
+.sec-3-h4 {
+   color: #ec008c;
+   background-color: #fde7ed;
+   font-size: 40px;
+}
+
+.sec-3-p {
+   font-family: 'Capriola', sans-serif;
+   width: 76%;
+   color: #fde8ef;
+}
+
+/* End 3 */
+
+/* Section Ways */
+
+.sec-ways-img {
+   position: relative;
+}
+
+.sec-ways-img::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-image: url(Images/Section-ways-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.sec-ways-content {
+   position: relative;
+}
+
+.ways-title-bg {
+   background-color: #ec008c;
+   width: 50%;
+}
+
+.ways-title {
+   font-size: 50px;
+   color: #fde8ef;
+}
+
+.ways-h5 {
+   font-size: 30px;
+   color: #ffcb05;
+}
+
+/* End Ways */
+
+/* Section Revenue */
+
+.sec-revenue-img {
+   position: relative;
+}
+
+.sec-revenue-img::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-image: url(Images/Reveue-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.sec-revenue-content {
+   position: relative;
+}
+
+.revenue-title {
+   font-size: 50px;
+   color: #fff;
+   width: 50%;
+   background-color: #ec008c;
+}
+
+.revenue-p {
+   color: #fde8ef;
+   width: 50%;
+   font-size: 30px;
+}
+
+.rev-col-p {
+   color: #fff;
+   font-family: 'Capriola', sans-serif;
+}
+
+/* End Revenue */
+
+/* Instore */
+
+.instore-h4 {
+   color: #ec008c;
+}
+
+/* End Instore */
+
+/* Portobello */
+
+.sec-portobello-img {
+   position: relative;
+}
+
+.sec-portobello-img::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-image: url(Images/portobello-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.sec-portobello-content {
+   position: relative;
+}
+
+.portobello-h4 {
+   color: #ffcb05;
+   font-size: 70px;
+}
+
+.portobello-p {
+   color: #fff;
+}
+
+.port-col-1-p {
+   color: #fff;
+   font-family: 'Capriola', sans-serif;
+}
+
+/* End Portobello */
+
+/* Footprint */
+
+.footprint-h5 {
+   background-color: #709198;
+   color: #fff;
+   font-size: 20px;
+   width: 30%;
+}
+
+.footprint-title {
+   color: #343666;
+   font-size: 60px;
+}
+
+.footprint-p {
+   color: #709198;
+   font-family: 'Capriola', sans-serif;
+   font-size: 20px;
+}
+
+/* End Footprint */
+
+/* Annual */
+
+.sec-annual-img {
+   position: relative;
+}
+
+.sec-annual-img::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-image: url(Images/Annual-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.sec-annual-content {
+   position: relative;
+}
+
+.annual-img-div {
+   z-index: -1;
+   left: 30%;
+   top: 0%;
+}
+
+.Annual-div {
+   z-index: 999 !important;
+   position: absolute;
+   bottom: 10em;
+   left: 43%;
+   color: #ffffff;
+}
+
+.annual-title {
+   font-size: 80px;
+   letter-spacing: 0.5cm;
+}
+
+.annual-text {
+   font-size: 30px;
+}
+
+.annual-num1 {
+   font-size: 20px;
+   font-family: 'Capriola', sans-serif;
+   color: #ffcb05;
+}
+
+.annual-num2 {
+   font-size: 20px;
+   font-family: 'Capriola', sans-serif;
+   color: #fff;
+}
+
+/* End Annual */
+
+/* Cool */
+
+.cool-title {
+   color: #343666;
+   font-size: 60px;
+}
+
+/* End Cool */
+
+/* Customers */
+
+.sec-customers-img {
+   position: relative;
+}
+
+.sec-customers-img::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-image: url(Images/Customers-bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.sec-customers-content {
+   position: relative;
+}
+
+.customers-h5 {
+   color: #fff;
+   font-size: 30px;
+}
+
+.customers-h4 {
+   color: #ffcb05;
+   font-size: 50px;
+   width: 90%;
+}
+
+.customers-col2-h4 {
+   color: #fff;
+   font-size: 25px;
+   font-family: 'Capriola', sans-serif;
+   width: 70%;
+}
+
+.customers-col2-h5 {
+   color: #ffcb05;
+   font-size: 20px;
+   font-family: 'Capriola', sans-serif;
+   width: 70%;
+}
+
+.my-customers {
+   margin-top: 20em;
+   margin-bottom: 10em;
+}
+
+.d-customers-bar {
+   z-index: 99 !important;
+   position: absolute;
+   top: 0%;
+}
+
+/* End Customers */
+
+/* Shout */
+
+.shout-bg-element {
+   position: absolute;
+   right: 0%;
+}
+
+.shout-h5 {
+   color: #343666;
+   font-size: 40px;
+}
+
+.shout-h4 {
+   color: #343666;
+   font-size: 60px;
+   word-spacing: 0.5cm;
+}
+
+/* End Shout */
+
+/* footer */
+
+.mt-footer {
+   margin-top: 10em;
+}
+
+.footer-text {
+   font-family: 'Capriola', sans-serif;
+}
+
+.footer-bg-icon {
+   background-color: #fbfbfb;
+}
+
+.fa-brands {
+   color: #000;
+}
+
+/* End Footer */
+
+/* MEDIA QUERY */
+
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 576px) {
+   .w-heading-title {
+      width: 100%;
+   }
+
+   .heading-text-responsive {
+      font-size: 20px;
+   }
+
+   .hero-Title-Btn {
+      width: 50%;
+   }
+
+   .mt-1400-14 {
+      margin-top: 1em !important;
+   }
+
+   .mb-1400-14 {
+      margin-bottom: 3em !important;
+   }
+
+   .sec-1-img::before {
+      background-image: none !important;
+      background-color: #fde7ed;
+   }
+
+   .sec-2-img::before {
+      background-image: none;
+      background-color: #343666;
+   }
+
+   .sec-3-img::before {
+      background-image: none;
+      background-color: #ec008c;
+   }
+
+   .sec-1-h5 {
+      font-size: 12px;
+      width: 50%;
+   }
+
+   .sec-2-h5 {
+      font-size: 12px;
+      width: 50%;
+   }
+
+   .sec-1-h4 {
+      font-size: 14px;
+   }
+
+   .sec-3-h4 {
+      font-size: 14px;
+   }
+
+   .sec-1-p {
+      font-size: 12px;
+      width: 100%;
+   }
+
+   .sec-2-p {
+      font-size: 12px;
+      width: 100%;
+   }
+
+   .sec-3-p {
+      font-size: 12px;
+      width: 100%;
+   }
+
+   .sec-ways-img::before {
+      background-image: none;
+      background-color: #ffcb05;
+   }
+
+   .ways-title-bg {
+      width: 100%;
+   }
+
+   .ways-title {
+      font-size: 16px;
+   }
+
+   .ways-h5 {
+      font-size: 12px;
+   }
+
+   .sec-revenue-img::before {
+      background-image: none;
+      background-color: #343666;
+   }
+
+   .revenue-title {
+      font-size: 14px;
+      width: 100%;
+   }
+
+   .revenue-p {
+      font-size: 12px;
+      width: 100%;
+   }
+
+   .rev-col-p {
+      font-size: 14px;
+   }
+
+   .sec-portobello-img::before {
+      background-image: none;
+      background-color: #343666;
+   }
+
+   .portobello-h4 {
+      font-size: 30px;
+   }
+
+   .portobello-p {
+      font-size: 20px;
+   }
+
+   .port-col-1-p {
+      font-size: 12px;
+   }
+
+   .footprint-h5 {
+      width: 70%;
+      font-size: 16px;
+   }
+
+   .footprint-title {
+      font-size: 30px;
+   }
+
+   .footprint-p {
+      font-size: 14px;
+   }
+
+   .sec-annual-img::before {
+      background-image: none;
+      background-color: #343666;
+   }
+
+   .Annual-div {
+      left: 33%;
+      bottom: 6em;
+   }
+
+   .annual-title {
+      font-size: 20px;
+      letter-spacing: 0.2cm;
+   }
+
+   .annual-text {
+      font-size: 16px;
+   }
+
+   .annual-num1 {
+      font-size: 14px;
+   }
+
+   .annual-num2 {
+      font-size: 14px;
+   }
+
+   .cool-title {
+      font-size: 20px;
+   }
+
+   .sec-customers-img::before {
+      background-image: none;
+      background: linear-gradient(
+         180deg,
+         rgba(52, 54, 102, 1) 0%,
+         rgba(52, 54, 102, 1) 35%,
+         rgba(236, 0, 140, 1) 35%,
+         rgba(236, 0, 140, 1) 100%
+      );
+   }
+
+   .customers-h4 {
+      font-size: 20px;
+   }
+
+   .customers-h5 {
+      font-size: 15px;
+   }
+
+   .customers-col2-h4 {
+      width: 100%;
+      font-size: 18px;
+   }
+
+   .customers-col2-h5 {
+      width: 100%;
+      font-size: 16px;
+   }
+
+   .my-customers {
+      margin-top: 5em;
+      margin-bottom: 5em;
+   }
+
+   .shout-bg-element {
+      width: 100% !important;
+      bottom: -0%;
+   }
+
+   .shout-h4 {
+      font-size: 30px;
+   }
+
+   .shout-h5 {
+      font-size: 25px;
+   }
+
+   .footer-text {
+      font-size: 12px;
+   }
+
+   .footer-bar-img{
+      content: url(Images/footer-sm-bar.png);
+   }
+}
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+   .w-heading-title {
+      width: 100%;
+   }
+
+   .heading-text-responsive {
+      font-size: 30px;
+   }
+
+   .mt-1400-14 {
+      margin-top: 1em !important;
+   }
+
+   .mb-1400-14 {
+      margin-bottom: 3em !important;
+   }
+
+   .sec-1-img::before {
+      background-image: none !important;
+      background-color: #fde7ed;
+   }
+
+   .sec-2-img::before {
+      background-image: none;
+      background-color: #343666;
+   }
+
+   .sec-3-img::before {
+      background-image: none;
+      background-color: #ec008c;
+   }
+
+   .sec-1-h5 {
+      font-size: 13px;
+      width: 40%;
+   }
+
+   .sec-2-h5 {
+      font-size: 13px;
+      width: 40%;
+   }
+
+   .sec-1-h4 {
+      font-size: 16px;
+   }
+
+   .sec-3-h4 {
+      font-size: 16px;
+   }
+
+   .sec-1-p {
+      font-size: 14px;
+      width: 100%;
+   }
+
+   .sec-2-p {
+      font-size: 14px;
+      width: 100%;
+   }
+
+   .sec-3-p {
+      font-size: 14px;
+      width: 100%;
+   }
+
+   .sec-ways-img::before {
+      background-image: none;
+      background-color: #ffcb05;
+   }
+
+   .ways-title-bg {
+      width: 90%;
+   }
+
+   .ways-title {
+      font-size: 25px;
+   }
+
+   .ways-h5 {
+      font-size: 20px;
+   }
+
+   .sec-revenue-img::before {
+      background-image: none;
+      background-color: #343666;
+   }
+
+   .revenue-title {
+      font-size: 25px;
+      width: 100%;
+   }
+
+   .revenue-p {
+      font-size: 20px;
+      width: 100%;
+   }
+
+   .rev-col-p {
+      font-size: 14px;
+   }
+
+   .sec-portobello-img::before {
+      background-image: none;
+      background-color: #343666;
+   }
+
+   .portobello-h4 {
+      font-size: 30px;
+   }
+
+   .portobello-p {
+      font-size: 20px;
+   }
+
+   .port-col-1-p {
+      font-size: 12px;
+   }
+
+   .footprint-h5 {
+      width: 40%;
+   }
+
+   .footprint-title {
+      font-size: 35px;
+   }
+
+   .footprint-p {
+      font-size: 16px;
+   }
+
+   .sec-annual-img::before {
+      background-image: none;
+      background-color: #343666;
+   }
+
+   .Annual-div {
+      left: 29%;
+      bottom: 9em;
+   }
+
+   .annual-title {
+      font-size: 50px;
+   }
+
+   .cool-title {
+      font-size: 35px;
+   }
+
+   .sec-customers-img::before {
+      background-image: none;
+      background: linear-gradient(
+         180deg,
+         rgba(52, 54, 102, 1) 0%,
+         rgba(52, 54, 102, 1) 50%,
+         rgba(236, 0, 140, 1) 50%,
+         rgba(236, 0, 140, 1) 100%
+      );
+   }
+
+   .customers-h4 {
+      font-size: 30px;
+   }
+
+   .customers-h5 {
+      font-size: 20px;
+   }
+
+   .customers-col2-h4 {
+      width: 100%;
+      font-size: 18px;
+   }
+
+   .customers-col2-h5 {
+      width: 100%;
+      font-size: 16px;
+   }
+
+   .my-customers {
+      margin-top: 5em;
+      margin-bottom: 5em;
+   }
+
+   .shout-bg-element {
+      width: 70% !important;
+      bottom: -04%;
+   }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+   .w-heading-title {
+      width: 95%;
+   }
+
+   .heading-text-responsive {
+      font-size: 50px;
+   }
+
+   .mt-1400-14 {
+      margin-top: 3em !important;
+   }
+
+   .mb-1400-14 {
+      margin-bottom: 3em !important;
+   }
+
+   .sec-1-img::before {
+      background-image: none !important;
+      background-color: #fde7ed;
+   }
+
+   .sec-2-img::before {
+      background-image: none;
+      background-color: #343666;
+   }
+
+   .sec-3-img::before {
+      background-image: none;
+      background-color: #ec008c;
+   }
+
+   .sec-1-h5 {
+      font-size: 13px;
+      width: 40%;
+   }
+
+   .sec-2-h5 {
+      font-size: 13px;
+      width: 40%;
+   }
+
+   .sec-1-h4 {
+      font-size: 16px;
+   }
+
+   .sec-3-h4 {
+      font-size: 16px;
+   }
+
+   .sec-1-p {
+      font-size: 14px;
+      width: 100%;
+   }
+
+   .sec-2-p {
+      font-size: 14px;
+      width: 100%;
+   }
+
+   .sec-3-p {
+      font-size: 14px;
+      width: 100%;
+   }
+
+   .sec-ways-img::before {
+      background-image: none;
+      background-color: #ffcb05;
+   }
+
+   .ways-title-bg {
+      width: 70%;
+   }
+
+   .ways-title {
+      font-size: 25px;
+   }
+
+   .ways-h5 {
+      font-size: 20px;
+   }
+
+   .sec-revenue-img::before {
+      background-image: none;
+      background-color: #343666;
+   }
+
+   .revenue-title {
+      font-size: 30px;
+      width: 70%;
+   }
+
+   .revenue-p {
+      font-size: 25px;
+      width: 70%;
+   }
+
+   .rev-col-p {
+      font-size: 14px;
+   }
+
+   .sec-portobello-img::before {
+      background-image: none;
+      background-color: #343666;
+   }
+
+   .portobello-h4 {
+      font-size: 40px;
+   }
+
+   .portobello-p {
+      font-size: 20px;
+   }
+
+   .footprint-h5 {
+      width: 60%;
+   }
+
+   .footprint-title {
+      font-size: 35px;
+   }
+
+   .footprint-p {
+      font-size: 16px;
+   }
+
+   .sec-annual-img::before {
+      background-image: none;
+      background-color: #343666;
+   }
+
+   .Annual-div {
+      left: 33%;
+      bottom: 9em;
+   }
+
+   .annual-title {
+      font-size: 60px;
+   }
+
+   .cool-title {
+      font-size: 35px;
+   }
+
+   .sec-customers-img::before {
+      background-image: none;
+      background: linear-gradient(
+         90deg,
+         rgba(52, 54, 102, 1) 0%,
+         rgba(52, 54, 102, 1) 50%,
+         rgba(236, 0, 140, 1) 50%,
+         rgba(236, 0, 140, 1) 100%
+      );
+   }
+
+   .customers-h4 {
+      font-size: 30px;
+   }
+
+   .customers-h5 {
+      font-size: 20px;
+   }
+
+   .customers-col2-h4 {
+      width: 100%;
+      font-size: 18px;
+   }
+
+   .customers-col2-h5 {
+      width: 100%;
+      font-size: 16px;
+   }
+
+   .my-customers {
+      margin-top: 5em;
+      margin-bottom: 5em;
+   }
+
+   .shout-bg-element {
+      width: 60% !important;
+   }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+   .w-heading-title {
+      width: 90%;
+   }
+
+   .mt-1400-14 {
+      margin-top: 6em !important;
+   }
+
+   .mb-1400-14 {
+      margin-bottom: 6em !important;
+   }
+
+   .sec-1-img::before {
+      background-image: none !important;
+      background-color: #fde7ed;
+   }
+
+   .sec-2-img::before {
+      background-image: none;
+      background-color: #343666;
+   }
+
+   .sec-3-img::before {
+      background-image: none;
+      background-color: #ec008c;
+   }
+
+   .sec-1-h5 {
+      font-size: 18px;
+      width: 30%;
+   }
+
+   .sec-2-h5 {
+      font-size: 18px;
+      width: 30%;
+   }
+
+   .sec-1-h4 {
+      font-size: 25px;
+   }
+
+   .sec-3-h4 {
+      font-size: 25px;
+   }
+
+   .sec-1-p {
+      font-size: 18px;
+      width: 90%;
+   }
+
+   .sec-2-p {
+      font-size: 18px;
+      width: 90%;
+   }
+
+   .sec-3-p {
+      font-size: 18px;
+      width: 90%;
+   }
+
+   .sec-ways-img::before {
+      background-image: none;
+      background-color: #ffcb05;
+   }
+
+   .ways-title-bg {
+      width: 70%;
+   }
+
+   .ways-title {
+      font-size: 30px;
+   }
+
+   .ways-h5 {
+      font-size: 25px;
+   }
+
+   .sec-revenue-img::before {
+      background-image: none;
+      background-color: #343666;
+   }
+
+   .revenue-title {
+      font-size: 30px;
+      width: 60%;
+   }
+
+   .revenue-p {
+      font-size: 25px;
+      width: 60%;
+   }
+
+   .rev-col-p {
+      font-size: 14px;
+   }
+
+   .sec-portobello-img::before {
+      background-image: none;
+      background-color: #343666;
+   }
+
+   .portobello-h4 {
+      font-size: 40px;
+   }
+
+   .portobello-p {
+      font-size: 20px;
+   }
+
+   .footprint-h5 {
+      width: 50%;
+   }
+
+   .footprint-title {
+      font-size: 40px;
+   }
+
+   .footprint-p {
+      font-size: 18px;
+   }
+
+   .sec-annual-img::before {
+      background-image: none;
+      background-color: #343666;
+   }
+
+   .Annual-div {
+      left: 35%;
+   }
+
+   .cool-title {
+      font-size: 50px;
+   }
+
+   .sec-customers-img::before {
+      background-image: none;
+      background: linear-gradient(
+         90deg,
+         rgba(52, 54, 102, 1) 0%,
+         rgba(52, 54, 102, 1) 50%,
+         rgba(236, 0, 140, 1) 50%,
+         rgba(236, 0, 140, 1) 100%
+      );
+   }
+
+   .customers-h4 {
+      font-size: 35px;
+   }
+
+   .customers-h5 {
+      font-size: 25px;
+   }
+
+   .customers-col2-h4 {
+      width: 90%;
+      font-size: 20px;
+   }
+
+   .customers-col2-h5 {
+      width: 90%;
+      font-size: 16px;
+   }
+
+   .my-customers {
+      margin-top: 5em;
+      margin-bottom: 5em;
+   }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+   .w-heading-title {
+      width: 70%;
+   }
+
+   .mt-1400-14 {
+      margin-top: 6em !important;
+   }
+
+   .mb-1400-14 {
+      margin-bottom: 6em !important;
+   }
+
+   .sec-1-img::before {
+      background-image: none !important;
+      background-color: #fde7ed;
+   }
+
+   .sec-2-img::before {
+      background-image: none;
+      background-color: #343666;
+   }
+
+   .sec-3-img::before {
+      background-image: none;
+      background-color: #ec008c;
+   }
+
+   .sec-1-h5 {
+      font-size: 16px;
+   }
+
+   .sec-2-h5 {
+      font-size: 16px;
+   }
+
+   .sec-1-h4 {
+      font-size: 30px;
+   }
+
+   .sec-3-h4 {
+      font-size: 30px;
+   }
+
+   .sec-1-p {
+      font-size: 18px;
+   }
+
+   .sec-2-p {
+      font-size: 18px;
+   }
+
+   .sec-3-p {
+      font-size: 18px;
+   }
+
+   .sec-ways-img::before {
+      background-image: none;
+      background-color: #ffcb05;
+   }
+
+   .ways-title-bg {
+      width: 60%;
+   }
+
+   .ways-title {
+      font-size: 35px;
+   }
+
+   .ways-h5 {
+      font-size: 30px;
+   }
+
+   .sec-revenue-img::before {
+      background-image: none;
+      background-color: #343666;
+   }
+
+   .revenue-title {
+      font-size: 30px;
+      width: 60%;
+   }
+
+   .revenue-p {
+      font-size: 25px;
+      width: 60%;
+   }
+
+   .rev-col-p {
+      font-size: 14px;
+   }
+
+   .sec-portobello-img::before {
+      background-image: none;
+      background-color: #343666;
+   }
+
+   .portobello-h4 {
+      font-size: 50px;
+   }
+
+   .portobello-p {
+      font-size: 25px;
+   }
+
+   .footprint-h5 {
+      width: 40%;
+   }
+
+   .sec-annual-img::before {
+      background-image: none;
+      background-color: #343666;
+   }
+
+   .Annual-div {
+      left: 37%;
+   }
+
+   .sec-customers-img::before {
+      background-image: none;
+      background: linear-gradient(
+         90deg,
+         rgba(52, 54, 102, 1) 0%,
+         rgba(52, 54, 102, 1) 50%,
+         rgba(236, 0, 140, 1) 50%,
+         rgba(236, 0, 140, 1) 100%
+      );
+   }
+
+   .customers-col2-h4 {
+      width: 90%;
+   }
+
+   .customers-col2-h5 {
+      width: 90%;
+   }
+
+   .my-customers {
+      margin-top: 5em;
+      margin-bottom: 5em;
+   }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+   .mt-1400-14 {
+      margin-top: 6em !important;
+   }
+
+   .mb-1400-14 {
+      margin-bottom: 6em !important;
+   }
+
+   .sec-1-img::before {
+      background-image: none !important;
+      background-color: #fde7ed;
+   }
+
+   .sec-2-img::before {
+      background-image: none;
+      background-color: #343666;
+   }
+
+   .sec-3-img::before {
+      background-image: none;
+      background-color: #ec008c;
+   }
+
+   .sec-1-h5 {
+      font-size: 20px;
+   }
+
+   .sec-2-h5 {
+      font-size: 20px;
+   }
+
+   .sec-3-h4 {
+      font-size: 35px;
+   }
+
+   .sec-1-p {
+      font-size: 18px;
+   }
+
+   .sec-2-p {
+      font-size: 18px;
+   }
+
+   .sec-3-p {
+      font-size: 18px;
+   }
+
+   .sec-ways-img::before {
+      background-image: none;
+      background-color: #ffcb05;
+   }
+
+   .ways-title-bg {
+      width: 60%;
+   }
+
+   .ways-title {
+      font-size: 35px;
+   }
+
+   .ways-h5 {
+      font-size: 30px;
+   }
+
+   .sec-revenue-img::before {
+      background-image: none;
+      background-color: #343666;
+   }
+
+   .revenue-title {
+      font-size: 35px;
+   }
+
+   .revenue-p {
+      font-size: 28px;
+   }
+
+   .rev-col-p {
+      font-size: 14px;
+   }
+
+   .sec-portobello-img::before {
+      background-image: none;
+      background-color: #343666;
+   }
+
+   .portobello-h4 {
+      font-size: 60px;
+   }
+
+   .portobello-p {
+      font-size: 25px;
+   }
+
+   .sec-annual-img::before {
+      background-image: none;
+      background-color: #343666;
+   }
+
+   .Annual-div {
+      left: 40%;
+   }
+
+   .sec-customers-img::before {
+      background-image: none;
+      background: linear-gradient(
+         90deg,
+         rgba(52, 54, 102, 1) 0%,
+         rgba(52, 54, 102, 1) 50%,
+         rgba(236, 0, 140, 1) 50%,
+         rgba(236, 0, 140, 1) 100%
+      );
+   }
+
+   .d-customers-bar {
+      z-index: 99 !important;
+   }
+}
+
+@media only screen and (min-width: 1600px) {
+   .d-image-custom {
+      display: none !important;
+   }
+
+   .d-customers-bar {
+      display: none !important;
+   }
+}
